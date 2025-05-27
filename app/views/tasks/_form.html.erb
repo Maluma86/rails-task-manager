@@ -1,0 +1,6 @@
+<% if task.persisted? %>
+  <div>
+    <%= form.label :completed %>
+    <%= form.check_box :completed %>
+  </div>
+<% end %>
